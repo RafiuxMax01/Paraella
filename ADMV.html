@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Flores</title>
+    <style>
+         body {
+            background-image: url('Imagenes.floresus.jpg'); /* Ruta local de la imagen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            filter: brightness(1.2); 
+        }
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .imagen {
+            margin: 10px;
+            width: 250px;
+            height: auto;
+        }
+        .imagen:nth-child(odd) {
+            transform: translateX(-20px);
+        }
+        .imagen:nth-child(even) {
+            transform: translateX(20px);
+        }
+        .imagen img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .texto {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+        .video-container {
+            margin: 40px auto;
+            width: 35%;
+        }
+        .video-container video {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Flores</h1>
+    <div class="galeria">
+        <div class="imagen">
+            <img src="imagen1.jpg" alt="Flor 1">
+            <div class="texto">Recuerdas este día corazón?, la verdad un día tan bello 
+                en donde pude conocerte más, tal vez tener una noción de lo que podría sentir por ti 
+                y así darme la idea de conocerte más.
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen2.jpg" alt="Flor 2">
+            <div class="texto">Omg mor!!, comer en Carl's junto a ti es bello sabes, aunque realmente a veces ni queremos ir 
+                a excepción de mí, pero qué bonito es pasar días a tu lado y saber que obvio necesitamos comer jaja
+                e ir a lugares contigo, qué bello, por cierto, qué hermosa estás en esta foto (Y siempre)
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen3.jpg" alt="Flor 3">
+            <div class="texto">Esta foto y ese momento contigo de verdad me pareció muy lindo, tomarnos fotos aleatorias, 
+                hasta grabar videos platicando con nuestros futuros hijos, la verdad qué hermoso momento
+                te puedes imaginar cuántos pensamientos tan bonitos sentimos entre nosotros? qué hermoso!!
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen4.jpg" alt="Flor 4">
+            <div class="texto">Morchis, cuando fuimos a Jump Jump, jaja qué padre la verdad, estás saltando y vernos desde lejos
+                querer atraparnos y solo estar corriendo como locos sabiendo cómo nos veíamos, aunque real estábamos muy sudados jaja
+                qué bonito ese día, realmente fue un día nuevo, algo nuevo entre nosotros y muy hermoso
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen5.jpg" alt="Flor 5">
+            <div class="texto">Sí mor, esto fue después de Jump Jump, creo que olíamos algo raro, o yo más bien jaja, pero sabes que 
+                fuimos a cenar morchis, y es lo que te digo, tan hermoso estar a tu lado en cada momento y realmente ese día nos contamos
+                muchas cosas tan bonitas, sin duda comunicarme contigo es tan bello 
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen6.jpg" alt="Flor 6">
+            <div class="texto">Día de balneario, creo que esta fue la primera vez amor, jaja porque recuerdo que los demás días solo el agua 
+                estaba súper helada, pero esta primera vez fue diferente obvio, porque fue algo nuevo, algo bonito, algo que queríamos hacer 
+                cambiar nuestras citas y vernos así morchis, en el balneario, almorzando planchitas, qué hermoso la verdad, uno de mis mejores días 
+                junto a ti
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen7.jpg" alt="Flor 7">
+            <div class="texto">Sí morchis, esta foto me gusta mucho, y realmente elegí con cuidado las fotos que podía poner en esta página
+                es muy bonito cuando nos tomamos fotos y podemos tener esa conexión que hace que nos amemos tanto
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="imagen8.jpg" alt="Flor 8">
+            <div class="texto">Bonito día, bonita temporada, bonito mes, bonitos nosotros, amor, qué hermoso saber que en un año podemos estar 
+                juntos, simplemente me parece muy hermoso no lo crees?, terminamos muchos proyectos personales juntos amor, desde tu escuela, cuando sufrí en la uni, etc..
+                de verdad esta foto me hace sentir una química bonita, porque venos amor, somos tan felices, y lo seguiremos siendo </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <video controls>
+            <source src="video_us.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+        <div class="texto-video">
+            Tu y yo amor, somos lo que siempre esperamos y podemos realmente tener una relacion perfecta porque seguimos teniendo esa quimica, solo necesitamos 
+            permaneces juntos y todo lo bonito vendra a nosotros, porque nos lo merecemos despues de tanto. 
+                                                            TE AMO 
+    </div>
+    </div>
+</body>
+</html>
